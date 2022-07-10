@@ -10,8 +10,8 @@ echo git add .
 git add .
 echo;
  
-set /p declation=commit message
-git commit -m "%declation%"
+@REM set /p declation= commit message
+git commit -m "mybatis"
 echo;
  
 echo git pull origin main

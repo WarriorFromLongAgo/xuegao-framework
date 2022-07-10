@@ -5,6 +5,7 @@
 !gradle/wrapper/gradle-wrapper.jar
 target/
 !.mvn/wrapper/maven-wrapper.jar
+<<<<<<< HEAD
 
 ######################################################################
 ### STS ###
@@ -30,6 +31,33 @@ mvnw.*
 target/*
 
 ######################################################################
+=======
+
+######################################################################
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+######################################################################
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+mvnw
+mvnw.*
+.gitignore
+.mvn
+*.class
+target/*
+
+######################################################################
+>>>>>>> 8b027586d8b29971bf57f53556b4d2b192190c80
 ### NetBeans ###
 nbproject/private/
 build/*
@@ -40,12 +68,50 @@ nbdist/
 
 ######################################################################
 ### Others ###
+<<<<<<< HEAD
+=======
 *.log
 *.xml.versionsBackup
 !*/build/*.java
 !*/build/*.html
 !*/build/*.xml
 
+######################################################################
+### admin-web ###
+
+# dependencies
+**/node_modules
+
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
+# production
+/dist
+/.vscode
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.idea
+yarn.lock
+package-lock.json
+*bak
+.vscode
+
+# visual studio code
+.history
+>>>>>>> 8b027586d8b29971bf57f53556b4d2b192190c80
+*.log
+*.xml.versionsBackup
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
+
+<<<<<<< HEAD
 ######################################################################
 ### admin-web ###
 
@@ -81,6 +147,15 @@ functions/mock
 .umi
 .umi-production
 
+=======
+functions/mock
+.temp/**
+
+# umi
+.umi
+.umi-production
+
+>>>>>>> 8b027586d8b29971bf57f53556b4d2b192190c80
 # screenshot
 screenshot
 .firebase
